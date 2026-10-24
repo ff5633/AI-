@@ -1,0 +1,8 @@
+name: astrbot_plugin_host_monitor
+display_name: 小主机只读监控
+desc: 查询宿主机温度、内存、CPU、磁盘及负载，仅指定QQ私聊可用。
+version: v2.0.0
+author: fzz
+support_platforms:
+  - aiocqhttp
+astrbot_version: '>=4.16,<5'

@@ -6,9 +6,11 @@
 
 适用 Ubuntu / Debian、systemd、Python 3，以及大肥鱼项目的 `astrbot.yml` 和 `data` 布局。Docker 必须将项目的 `data` 挂载到 `/AstrBot/data`。无需 privileged、Docker socket 或宿主机根目录挂载。
 
-下载或 clone 本仓库后，用普通 Linux 账号执行：
+用普通 Linux 账号执行：
 
 ```bash
+git clone --depth 1 https://github.com/ff5633/AI-.git ~/dafeiyu-host-monitor
+cd ~/dafeiyu-host-monitor
 bash install.sh ~/dafeiyu 你的QQ号
 sudo docker restart astrbot
 ```
